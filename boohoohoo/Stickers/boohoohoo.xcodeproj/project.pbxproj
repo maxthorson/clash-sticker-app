@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F1687102541653200097CD3 /* Stickers+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F16870F2541653200097CD3 /* Stickers+Extensions.swift */; };
+		1FD624BB24D00D6A005B8904 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FD624BA24D00D6A005B8904 /* Assets.xcassets */; };
+		1FD624C224D00D6A005B8904 /* boohoohoo MessagesExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1FD624C124D00D6A005B8904 /* boohoohoo MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1FD624C724D00D6A005B8904 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FD624C624D00D6A005B8904 /* Messages.framework */; };
+		1FD624CA24D00D6A005B8904 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD624C924D00D6A005B8904 /* MessagesViewController.swift */; };
+		1FD624CD24D00D6A005B8904 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FD624CB24D00D6A005B8904 /* MainInterface.storyboard */; };
+		1FD624CF24D00D6B005B8904 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FD624CE24D00D6B005B8904 /* Assets.xcassets */; };
+		1FD6250624D09A2B005B8904 /* StickerCollectionReusableViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD6250524D09A2B005B8904 /* StickerCollectionReusableViews.swift */; };
+		CE2920C12E92F99200A0581C /* Categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE2920C02E92F99200A0581C /* Categories.plist */; };
+		CE2920C22E92F99200A0581C /* Categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE2920C02E92F99200A0581C /* Categories.plist */; };
+		CE2920C42E93684B00A0581C /* emote_goblin_boohoo.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920C32E93684B00A0581C /* emote_goblin_boohoo.png */; };
+		CE2920C52E93684B00A0581C /* emote_goblin_boohoo.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920C32E93684B00A0581C /* emote_goblin_boohoo.png */; };
+		CE2920D82E93697D00A0581C /* emote_goblin_thumbs_up.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920D52E93697D00A0581C /* emote_goblin_thumbs_up.png */; };
+		CE2920D92E93697D00A0581C /* emote_goblin_confused_02.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920C82E93697D00A0581C /* emote_goblin_confused_02.png */; };
+		CE2920DA2E93697D00A0581C /* emote_goblin_laugh.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920CF2E93697D00A0581C /* emote_goblin_laugh.png */; };
+		CE2920DB2E93697D00A0581C /* emote_goblin_grinch.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920CE2E93697D00A0581C /* emote_goblin_grinch.png */; };
+		CE2920DC2E93697D00A0581C /* emote_goblin_flex.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920CB2E93697D00A0581C /* emote_goblin_flex.png */; };
+		CE2920DD2E93697D00A0581C /* emote_goblin_confused_01.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920C72E93697D00A0581C /* emote_goblin_confused_01.png */; };
+		CE2920DE2E93697D00A0581C /* emote_goblin_masterplan.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920D12E93697D00A0581C /* emote_goblin_masterplan.png */; };
+		CE2920DF2E93697D00A0581C /* emote_goblin_waiting.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920D72E93697D00A0581C /* emote_goblin_waiting.png */; };
+		CE2920E02E93697D00A0581C /* emote_goblin_this_is_fine.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920D42E93697D00A0581C /* emote_goblin_this_is_fine.png */; };
+		CE2920E12E93697D00A0581C /* emote_goblin_anchored.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920C62E93697D00A0581C /* emote_goblin_anchored.png */; };
+		CE2920E22E93697D00A0581C /* emote_goblin_forfeit.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920CC2E93697D00A0581C /* emote_goblin_forfeit.png */; };
+		CE2920E32E93697D00A0581C /* emote_goblin_tongue.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920D62E93697D00A0581C /* emote_goblin_tongue.png */; };
+		CE2920E42E93697D00A0581C /* emote_goblin_peace.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920D32E93697D00A0581C /* emote_goblin_peace.png */; };
+		CE2920E52E93697D00A0581C /* emote_goblin_grin.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920CD2E93697D00A0581C /* emote_goblin_grin.png */; };
+		CE2920E62E93697D00A0581C /* emote_goblin_excited.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920CA2E93697D00A0581C /* emote_goblin_excited.png */; };
+		CE2920E72E93697D00A0581C /* emote_goblin_love.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920D02E93697D00A0581C /* emote_goblin_love.png */; };
+		CE2920E82E93697D00A0581C /* emote_goblin_ohno.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920D22E93697D00A0581C /* emote_goblin_ohno.png */; };
+		CE2920E92E93697D00A0581C /* emote_goblin_deal_with_it.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920C92E93697D00A0581C /* emote_goblin_deal_with_it.png */; };
+		CE2920EA2E93697D00A0581C /* emote_goblin_thumbs_up.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920D52E93697D00A0581C /* emote_goblin_thumbs_up.png */; };
+		CE2920EB2E93697D00A0581C /* emote_goblin_confused_02.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920C82E93697D00A0581C /* emote_goblin_confused_02.png */; };
+		CE2920EC2E93697D00A0581C /* emote_goblin_laugh.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920CF2E93697D00A0581C /* emote_goblin_laugh.png */; };
+		CE2920ED2E93697D00A0581C /* emote_goblin_grinch.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920CE2E93697D00A0581C /* emote_goblin_grinch.png */; };
+		CE2920EE2E93697D00A0581C /* emote_goblin_flex.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920CB2E93697D00A0581C /* emote_goblin_flex.png */; };
+		CE2920EF2E93697D00A0581C /* emote_goblin_confused_01.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920C72E93697D00A0581C /* emote_goblin_confused_01.png */; };
+		CE2920F02E93697D00A0581C /* emote_goblin_masterplan.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920D12E93697D00A0581C /* emote_goblin_masterplan.png */; };
+		CE2920F12E93697D00A0581C /* emote_goblin_waiting.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920D72E93697D00A0581C /* emote_goblin_waiting.png */; };
+		CE2920F22E93697D00A0581C /* emote_goblin_this_is_fine.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920D42E93697D00A0581C /* emote_goblin_this_is_fine.png */; };
+		CE2920F32E93697D00A0581C /* emote_goblin_anchored.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920C62E93697D00A0581C /* emote_goblin_anchored.png */; };
+		CE2920F42E93697D00A0581C /* emote_goblin_forfeit.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920CC2E93697D00A0581C /* emote_goblin_forfeit.png */; };
+		CE2920F52E93697D00A0581C /* emote_goblin_tongue.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920D62E93697D00A0581C /* emote_goblin_tongue.png */; };
+		CE2920F62E93697D00A0581C /* emote_goblin_peace.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920D32E93697D00A0581C /* emote_goblin_peace.png */; };
+		CE2920F72E93697D00A0581C /* emote_goblin_grin.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920CD2E93697D00A0581C /* emote_goblin_grin.png */; };
+		CE2920F82E93697D00A0581C /* emote_goblin_excited.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920CA2E93697D00A0581C /* emote_goblin_excited.png */; };
+		CE2920F92E93697D00A0581C /* emote_goblin_love.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920D02E93697D00A0581C /* emote_goblin_love.png */; };
+		CE2920FA2E93697D00A0581C /* emote_goblin_ohno.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920D22E93697D00A0581C /* emote_goblin_ohno.png */; };
+		CE2920FB2E93697D00A0581C /* emote_goblin_deal_with_it.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920C92E93697D00A0581C /* emote_goblin_deal_with_it.png */; };
+		CE2921072E936BC500A0581C /* emote_princes_trumpet.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920FC2E936BC500A0581C /* emote_princes_trumpet.png */; };
+		CE2921082E936BC500A0581C /* emote_princess_hongbao.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2921012E936BC500A0581C /* emote_princess_hongbao.png */; };
+		CE2921092E936BC500A0581C /* emote_princess_thumbs_up.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2921032E936BC500A0581C /* emote_princess_thumbs_up.png */; };
+		CE29210A2E936BC500A0581C /* emote_princess_tumbs_up_02.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2921042E936BC500A0581C /* emote_princess_tumbs_up_02.png */; };
+		CE29210B2E936BC500A0581C /* emote_princess_yarn.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2921062E936BC500A0581C /* emote_princess_yarn.png */; };
+		CE29210C2E936BC500A0581C /* emote_princess_whistle.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2921052E936BC500A0581C /* emote_princess_whistle.png */; };
+		CE29210D2E936BC500A0581C /* Emote_Princess_GoAhead.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920FF2E936BC500A0581C /* Emote_Princess_GoAhead.png */; };
+		CE29210E2E936BC500A0581C /* emote_princess_heart.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2921002E936BC500A0581C /* emote_princess_heart.png */; };
+		CE29210F2E936BC500A0581C /* emote_princess_peace.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2921022E936BC500A0581C /* emote_princess_peace.png */; };
+		CE2921102E936BC500A0581C /* emote_princess_flex.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920FE2E936BC500A0581C /* emote_princess_flex.png */; };
+		CE2921112E936BC500A0581C /* emote_princess_angry.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920FD2E936BC500A0581C /* emote_princess_angry.png */; };
+		CE2921122E936BC500A0581C /* emote_princes_trumpet.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920FC2E936BC500A0581C /* emote_princes_trumpet.png */; };
+		CE2921132E936BC500A0581C /* emote_princess_hongbao.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2921012E936BC500A0581C /* emote_princess_hongbao.png */; };
+		CE2921142E936BC500A0581C /* emote_princess_thumbs_up.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2921032E936BC500A0581C /* emote_princess_thumbs_up.png */; };
+		CE2921152E936BC500A0581C /* emote_princess_tumbs_up_02.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2921042E936BC500A0581C /* emote_princess_tumbs_up_02.png */; };
+		CE2921162E936BC500A0581C /* emote_princess_yarn.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2921062E936BC500A0581C /* emote_princess_yarn.png */; };
+		CE2921172E936BC500A0581C /* emote_princess_whistle.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2921052E936BC500A0581C /* emote_princess_whistle.png */; };
+		CE2921182E936BC500A0581C /* Emote_Princess_GoAhead.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920FF2E936BC500A0581C /* Emote_Princess_GoAhead.png */; };
+		CE2921192E936BC500A0581C /* emote_princess_heart.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2921002E936BC500A0581C /* emote_princess_heart.png */; };
+		CE29211A2E936BC500A0581C /* emote_princess_peace.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2921022E936BC500A0581C /* emote_princess_peace.png */; };
+		CE29211B2E936BC500A0581C /* emote_princess_flex.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920FE2E936BC500A0581C /* emote_princess_flex.png */; };
+		CE29211C2E936BC500A0581C /* emote_princess_angry.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2920FD2E936BC500A0581C /* emote_princess_angry.png */; };
+		CE2921252E936EB800A0581C /* emote_hog_scream.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2921212E936EB800A0581C /* emote_hog_scream.png */; };
+		CE2921262E936EB800A0581C /* emote_hog_rider_love.png in Resources */ = {isa = PBXBuildFile; fileRef = CE29211F2E936EB800A0581C /* emote_hog_rider_love.png */; };
+		CE2921272E936EB800A0581C /* Emote_HogRider_Think.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2921242E936EB800A0581C /* Emote_HogRider_Think.png */; };
+		CE2921282E936EB800A0581C /* emote_hog_rider_confused.png in Resources */ = {isa = PBXBuildFile; fileRef = CE29211D2E936EB800A0581C /* emote_hog_rider_confused.png */; };
+		CE2921292E936EB800A0581C /* emote_hog_rider_golden.png in Resources */ = {isa = PBXBuildFile; fileRef = CE29211E2E936EB800A0581C /* emote_hog_rider_golden.png */; };
+		CE29212A2E936EB800A0581C /* emote_hog_rider_santa.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2921202E936EB800A0581C /* emote_hog_rider_santa.png */; };
+		CE29212B2E936EB800A0581C /* emote_hog_snowball_christmas.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2921222E936EB800A0581C /* emote_hog_snowball_christmas.png */; };
+		CE29212C2E936EB800A0581C /* Emote_Hogrider_Sunset.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2921232E936EB800A0581C /* Emote_Hogrider_Sunset.png */; };
+		CE29212D2E936EB800A0581C /* emote_hog_scream.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2921212E936EB800A0581C /* emote_hog_scream.png */; };
+		CE29212E2E936EB800A0581C /* emote_hog_rider_love.png in Resources */ = {isa = PBXBuildFile; fileRef = CE29211F2E936EB800A0581C /* emote_hog_rider_love.png */; };
+		CE29212F2E936EB800A0581C /* Emote_HogRider_Think.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2921242E936EB800A0581C /* Emote_HogRider_Think.png */; };
+		CE2921302E936EB800A0581C /* emote_hog_rider_confused.png in Resources */ = {isa = PBXBuildFile; fileRef = CE29211D2E936EB800A0581C /* emote_hog_rider_confused.png */; };
+		CE2921312E936EB800A0581C /* emote_hog_rider_golden.png in Resources */ = {isa = PBXBuildFile; fileRef = CE29211E2E936EB800A0581C /* emote_hog_rider_golden.png */; };
+		CE2921322E936EB800A0581C /* emote_hog_rider_santa.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2921202E936EB800A0581C /* emote_hog_rider_santa.png */; };
+		CE2921332E936EB800A0581C /* emote_hog_snowball_christmas.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2921222E936EB800A0581C /* emote_hog_snowball_christmas.png */; };
+		CE2921342E936EB800A0581C /* Emote_Hogrider_Sunset.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2921232E936EB800A0581C /* Emote_Hogrider_Sunset.png */; };
+		CE29213F2E936FF600A0581C /* Emote_King_SquadBaby.png in Resources */ = {isa = PBXBuildFile; fileRef = CE29213B2E936FF600A0581C /* Emote_King_SquadBaby.png */; };
+		CE2921402E936FF600A0581C /* emote_king_laugh.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2921372E936FF600A0581C /* emote_king_laugh.png */; };
+		CE2921412E936FF600A0581C /* emotes_king_chessquit.png in Resources */ = {isa = PBXBuildFile; fileRef = CE29213D2E936FF600A0581C /* emotes_king_chessquit.png */; };
+		CE2921422E936FF600A0581C /* emotes_king_chessthink.png in Resources */ = {isa = PBXBuildFile; fileRef = CE29213E2E936FF600A0581C /* emotes_king_chessthink.png */; };
+		CE2921432E936FF600A0581C /* emote_king_angry.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2921352E936FF600A0581C /* emote_king_angry.png */; };
+		CE2921442E936FF600A0581C /* emote_king_pixelated_laugh.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2921382E936FF600A0581C /* emote_king_pixelated_laugh.png */; };
+		CE2921452E936FF600A0581C /* emote_king_cry.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2921362E936FF600A0581C /* emote_king_cry.png */; };
+		CE2921462E936FF600A0581C /* Emote_King_ShareCry.png in Resources */ = {isa = PBXBuildFile; fileRef = CE29213A2E936FF600A0581C /* Emote_King_ShareCry.png */; };
+		CE2921472E936FF600A0581C /* emote_king_thumbs_up_01.png in Resources */ = {isa = PBXBuildFile; fileRef = CE29213C2E936FF600A0581C /* emote_king_thumbs_up_01.png */; };
+		CE2921482E936FF600A0581C /* Emote_King_RocketRide.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2921392E936FF600A0581C /* Emote_King_RocketRide.png */; };
+		CE2921492E936FF600A0581C /* Emote_King_SquadBaby.png in Resources */ = {isa = PBXBuildFile; fileRef = CE29213B2E936FF600A0581C /* Emote_King_SquadBaby.png */; };
+		CE29214A2E936FF600A0581C /* emote_king_laugh.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2921372E936FF600A0581C /* emote_king_laugh.png */; };
+		CE29214B2E936FF600A0581C /* emotes_king_chessquit.png in Resources */ = {isa = PBXBuildFile; fileRef = CE29213D2E936FF600A0581C /* emotes_king_chessquit.png */; };
+		CE29214C2E936FF600A0581C /* emotes_king_chessthink.png in Resources */ = {isa = PBXBuildFile; fileRef = CE29213E2E936FF600A0581C /* emotes_king_chessthink.png */; };
+		CE29214D2E936FF600A0581C /* emote_king_angry.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2921352E936FF600A0581C /* emote_king_angry.png */; };
+		CE29214E2E936FF600A0581C /* emote_king_pixelated_laugh.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2921382E936FF600A0581C /* emote_king_pixelated_laugh.png */; };
+		CE29214F2E936FF600A0581C /* emote_king_cry.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2921362E936FF600A0581C /* emote_king_cry.png */; };
+		CE2921502E936FF600A0581C /* Emote_King_ShareCry.png in Resources */ = {isa = PBXBuildFile; fileRef = CE29213A2E936FF600A0581C /* Emote_King_ShareCry.png */; };
+		CE2921512E936FF600A0581C /* emote_king_thumbs_up_01.png in Resources */ = {isa = PBXBuildFile; fileRef = CE29213C2E936FF600A0581C /* emote_king_thumbs_up_01.png */; };
+		CE2921522E936FF600A0581C /* Emote_King_RocketRide.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2921392E936FF600A0581C /* Emote_King_RocketRide.png */; };
+		CE2921542E938BB000A0581C /* MemoryCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2921532E938BB000A0581C /* MemoryCache.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FD624C324D00D6A005B8904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FD624B124D00D68005B8904 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FD624C024D00D6A005B8904;
+			remoteInfo = "Stickers MessagesExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1FD624D624D00D6B005B8904 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1FD624C224D00D6A005B8904 /* boohoohoo MessagesExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F16870F2541653200097CD3 /* Stickers+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stickers+Extensions.swift"; sourceTree = "<group>"; };
+		1FD624B724D00D68005B8904 /* boohoohoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = boohoohoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FD624BA24D00D6A005B8904 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FD624BC24D00D6A005B8904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FD624C124D00D6A005B8904 /* boohoohoo MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "boohoohoo MessagesExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FD624C624D00D6A005B8904 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		1FD624C924D00D6A005B8904 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		1FD624CC24D00D6A005B8904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		1FD624CE24D00D6B005B8904 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FD624D024D00D6B005B8904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FD6250524D09A2B005B8904 /* StickerCollectionReusableViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerCollectionReusableViews.swift; sourceTree = "<group>"; };
+		CE2920C02E92F99200A0581C /* Categories.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Categories.plist; sourceTree = "<group>"; };
+		CE2920C32E93684B00A0581C /* emote_goblin_boohoo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_goblin_boohoo.png; sourceTree = "<group>"; };
+		CE2920C62E93697D00A0581C /* emote_goblin_anchored.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_goblin_anchored.png; sourceTree = "<group>"; };
+		CE2920C72E93697D00A0581C /* emote_goblin_confused_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_goblin_confused_01.png; sourceTree = "<group>"; };
+		CE2920C82E93697D00A0581C /* emote_goblin_confused_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_goblin_confused_02.png; sourceTree = "<group>"; };
+		CE2920C92E93697D00A0581C /* emote_goblin_deal_with_it.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_goblin_deal_with_it.png; sourceTree = "<group>"; };
+		CE2920CA2E93697D00A0581C /* emote_goblin_excited.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_goblin_excited.png; sourceTree = "<group>"; };
+		CE2920CB2E93697D00A0581C /* emote_goblin_flex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_goblin_flex.png; sourceTree = "<group>"; };
+		CE2920CC2E93697D00A0581C /* emote_goblin_forfeit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_goblin_forfeit.png; sourceTree = "<group>"; };
+		CE2920CD2E93697D00A0581C /* emote_goblin_grin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_goblin_grin.png; sourceTree = "<group>"; };
+		CE2920CE2E93697D00A0581C /* emote_goblin_grinch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_goblin_grinch.png; sourceTree = "<group>"; };
+		CE2920CF2E93697D00A0581C /* emote_goblin_laugh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_goblin_laugh.png; sourceTree = "<group>"; };
+		CE2920D02E93697D00A0581C /* emote_goblin_love.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_goblin_love.png; sourceTree = "<group>"; };
+		CE2920D12E93697D00A0581C /* emote_goblin_masterplan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_goblin_masterplan.png; sourceTree = "<group>"; };
+		CE2920D22E93697D00A0581C /* emote_goblin_ohno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_goblin_ohno.png; sourceTree = "<group>"; };
+		CE2920D32E93697D00A0581C /* emote_goblin_peace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_goblin_peace.png; sourceTree = "<group>"; };
+		CE2920D42E93697D00A0581C /* emote_goblin_this_is_fine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_goblin_this_is_fine.png; sourceTree = "<group>"; };
+		CE2920D52E93697D00A0581C /* emote_goblin_thumbs_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_goblin_thumbs_up.png; sourceTree = "<group>"; };
+		CE2920D62E93697D00A0581C /* emote_goblin_tongue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_goblin_tongue.png; sourceTree = "<group>"; };
+		CE2920D72E93697D00A0581C /* emote_goblin_waiting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_goblin_waiting.png; sourceTree = "<group>"; };
+		CE2920FC2E936BC500A0581C /* emote_princes_trumpet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_princes_trumpet.png; sourceTree = "<group>"; };
+		CE2920FD2E936BC500A0581C /* emote_princess_angry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_princess_angry.png; sourceTree = "<group>"; };
+		CE2920FE2E936BC500A0581C /* emote_princess_flex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_princess_flex.png; sourceTree = "<group>"; };
+		CE2920FF2E936BC500A0581C /* Emote_Princess_GoAhead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Emote_Princess_GoAhead.png; sourceTree = "<group>"; };
+		CE2921002E936BC500A0581C /* emote_princess_heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_princess_heart.png; sourceTree = "<group>"; };
+		CE2921012E936BC500A0581C /* emote_princess_hongbao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_princess_hongbao.png; sourceTree = "<group>"; };
+		CE2921022E936BC500A0581C /* emote_princess_peace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_princess_peace.png; sourceTree = "<group>"; };
+		CE2921032E936BC500A0581C /* emote_princess_thumbs_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_princess_thumbs_up.png; sourceTree = "<group>"; };
+		CE2921042E936BC500A0581C /* emote_princess_tumbs_up_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_princess_tumbs_up_02.png; sourceTree = "<group>"; };
+		CE2921052E936BC500A0581C /* emote_princess_whistle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_princess_whistle.png; sourceTree = "<group>"; };
+		CE2921062E936BC500A0581C /* emote_princess_yarn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_princess_yarn.png; sourceTree = "<group>"; };
+		CE29211D2E936EB800A0581C /* emote_hog_rider_confused.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_hog_rider_confused.png; sourceTree = "<group>"; };
+		CE29211E2E936EB800A0581C /* emote_hog_rider_golden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_hog_rider_golden.png; sourceTree = "<group>"; };
+		CE29211F2E936EB800A0581C /* emote_hog_rider_love.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_hog_rider_love.png; sourceTree = "<group>"; };
+		CE2921202E936EB800A0581C /* emote_hog_rider_santa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_hog_rider_santa.png; sourceTree = "<group>"; };
+		CE2921212E936EB800A0581C /* emote_hog_scream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_hog_scream.png; sourceTree = "<group>"; };
+		CE2921222E936EB800A0581C /* emote_hog_snowball_christmas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_hog_snowball_christmas.png; sourceTree = "<group>"; };
+		CE2921232E936EB800A0581C /* Emote_Hogrider_Sunset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Emote_Hogrider_Sunset.png; sourceTree = "<group>"; };
+		CE2921242E936EB800A0581C /* Emote_HogRider_Think.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Emote_HogRider_Think.png; sourceTree = "<group>"; };
+		CE2921352E936FF600A0581C /* emote_king_angry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_king_angry.png; sourceTree = "<group>"; };
+		CE2921362E936FF600A0581C /* emote_king_cry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_king_cry.png; sourceTree = "<group>"; };
+		CE2921372E936FF600A0581C /* emote_king_laugh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_king_laugh.png; sourceTree = "<group>"; };
+		CE2921382E936FF600A0581C /* emote_king_pixelated_laugh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_king_pixelated_laugh.png; sourceTree = "<group>"; };
+		CE2921392E936FF600A0581C /* Emote_King_RocketRide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Emote_King_RocketRide.png; sourceTree = "<group>"; };
+		CE29213A2E936FF600A0581C /* Emote_King_ShareCry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Emote_King_ShareCry.png; sourceTree = "<group>"; };
+		CE29213B2E936FF600A0581C /* Emote_King_SquadBaby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Emote_King_SquadBaby.png; sourceTree = "<group>"; };
+		CE29213C2E936FF600A0581C /* emote_king_thumbs_up_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emote_king_thumbs_up_01.png; sourceTree = "<group>"; };
+		CE29213D2E936FF600A0581C /* emotes_king_chessquit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emotes_king_chessquit.png; sourceTree = "<group>"; };
+		CE29213E2E936FF600A0581C /* emotes_king_chessthink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emotes_king_chessthink.png; sourceTree = "<group>"; };
+		CE2921532E938BB000A0581C /* MemoryCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryCache.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FD624BE24D00D6A005B8904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD624C724D00D6A005B8904 /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FD624B024D00D68005B8904 = {
+			isa = PBXGroup;
+			children = (
+				1FD624B924D00D68005B8904 /* boohoohoo */,
+				1FD624C824D00D6A005B8904 /* boohoohoo MessagesExtension */,
+				1FD624C524D00D6A005B8904 /* Frameworks */,
+				1FD624B824D00D68005B8904 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FD624B824D00D68005B8904 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FD624B724D00D68005B8904 /* boohoohoo.app */,
+				1FD624C124D00D6A005B8904 /* boohoohoo MessagesExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FD624B924D00D68005B8904 /* boohoohoo */ = {
+			isa = PBXGroup;
+			children = (
+				1FD624BA24D00D6A005B8904 /* Assets.xcassets */,
+				1FD624BC24D00D6A005B8904 /* Info.plist */,
+			);
+			path = boohoohoo;
+			sourceTree = "<group>";
+		};
+		1FD624C524D00D6A005B8904 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FD624C624D00D6A005B8904 /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FD624C824D00D6A005B8904 /* boohoohoo MessagesExtension */ = {
+			isa = PBXGroup;
+			children = (
+				1FD624E024D016C5005B8904 /* boohoohoo Images */,
+				1FD624C924D00D6A005B8904 /* MessagesViewController.swift */,
+				1FD6250524D09A2B005B8904 /* StickerCollectionReusableViews.swift */,
+				1F16870F2541653200097CD3 /* Stickers+Extensions.swift */,
+				1FD624CB24D00D6A005B8904 /* MainInterface.storyboard */,
+				1FD624CE24D00D6B005B8904 /* Assets.xcassets */,
+				1FD624D024D00D6B005B8904 /* Info.plist */,
+				CE2921532E938BB000A0581C /* MemoryCache.swift */,
+			);
+			path = "boohoohoo MessagesExtension";
+			sourceTree = "<group>";
+		};
+		1FD624E024D016C5005B8904 /* boohoohoo Images */ = {
+			isa = PBXGroup;
+			children = (
+				CE2920C32E93684B00A0581C /* emote_goblin_boohoo.png */,
+				CE2920C02E92F99200A0581C /* Categories.plist */,
+				CE2920C62E93697D00A0581C /* emote_goblin_anchored.png */,
+				CE2920C72E93697D00A0581C /* emote_goblin_confused_01.png */,
+				CE2920C82E93697D00A0581C /* emote_goblin_confused_02.png */,
+				CE2920C92E93697D00A0581C /* emote_goblin_deal_with_it.png */,
+				CE2920CA2E93697D00A0581C /* emote_goblin_excited.png */,
+				CE2920CB2E93697D00A0581C /* emote_goblin_flex.png */,
+				CE2920CC2E93697D00A0581C /* emote_goblin_forfeit.png */,
+				CE2920CD2E93697D00A0581C /* emote_goblin_grin.png */,
+				CE2920CE2E93697D00A0581C /* emote_goblin_grinch.png */,
+				CE2920CF2E93697D00A0581C /* emote_goblin_laugh.png */,
+				CE2920D02E93697D00A0581C /* emote_goblin_love.png */,
+				CE2920D12E93697D00A0581C /* emote_goblin_masterplan.png */,
+				CE2920D22E93697D00A0581C /* emote_goblin_ohno.png */,
+				CE2920D32E93697D00A0581C /* emote_goblin_peace.png */,
+				CE2920D42E93697D00A0581C /* emote_goblin_this_is_fine.png */,
+				CE2920D52E93697D00A0581C /* emote_goblin_thumbs_up.png */,
+				CE2920D62E93697D00A0581C /* emote_goblin_tongue.png */,
+				CE2920D72E93697D00A0581C /* emote_goblin_waiting.png */,
+				CE2920FC2E936BC500A0581C /* emote_princes_trumpet.png */,
+				CE2920FD2E936BC500A0581C /* emote_princess_angry.png */,
+				CE2920FE2E936BC500A0581C /* emote_princess_flex.png */,
+				CE2920FF2E936BC500A0581C /* Emote_Princess_GoAhead.png */,
+				CE2921002E936BC500A0581C /* emote_princess_heart.png */,
+				CE2921012E936BC500A0581C /* emote_princess_hongbao.png */,
+				CE2921022E936BC500A0581C /* emote_princess_peace.png */,
+				CE2921032E936BC500A0581C /* emote_princess_thumbs_up.png */,
+				CE2921042E936BC500A0581C /* emote_princess_tumbs_up_02.png */,
+				CE2921052E936BC500A0581C /* emote_princess_whistle.png */,
+				CE2921062E936BC500A0581C /* emote_princess_yarn.png */,
+				CE29211D2E936EB800A0581C /* emote_hog_rider_confused.png */,
+				CE29211E2E936EB800A0581C /* emote_hog_rider_golden.png */,
+				CE29211F2E936EB800A0581C /* emote_hog_rider_love.png */,
+				CE2921202E936EB800A0581C /* emote_hog_rider_santa.png */,
+				CE2921212E936EB800A0581C /* emote_hog_scream.png */,
+				CE2921222E936EB800A0581C /* emote_hog_snowball_christmas.png */,
+				CE2921232E936EB800A0581C /* Emote_Hogrider_Sunset.png */,
+				CE2921242E936EB800A0581C /* Emote_HogRider_Think.png */,
+				CE2921352E936FF600A0581C /* emote_king_angry.png */,
+				CE2921362E936FF600A0581C /* emote_king_cry.png */,
+				CE2921372E936FF600A0581C /* emote_king_laugh.png */,
+				CE2921382E936FF600A0581C /* emote_king_pixelated_laugh.png */,
+				CE2921392E936FF600A0581C /* Emote_King_RocketRide.png */,
+				CE29213A2E936FF600A0581C /* Emote_King_ShareCry.png */,
+				CE29213B2E936FF600A0581C /* Emote_King_SquadBaby.png */,
+				CE29213C2E936FF600A0581C /* emote_king_thumbs_up_01.png */,
+				CE29213D2E936FF600A0581C /* emotes_king_chessquit.png */,
+				CE29213E2E936FF600A0581C /* emotes_king_chessthink.png */,
+			);
+			path = "boohoohoo Images";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FD624B624D00D68005B8904 /* boohoohoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FD624D724D00D6B005B8904 /* Build configuration list for PBXNativeTarget "boohoohoo" */;
+			buildPhases = (
+				1FD624B524D00D68005B8904 /* Resources */,
+				1FD624D624D00D6B005B8904 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FD624C424D00D6A005B8904 /* PBXTargetDependency */,
+			);
+			name = boohoohoo;
+			productName = Stickers;
+			productReference = 1FD624B724D00D68005B8904 /* boohoohoo.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		1FD624C024D00D6A005B8904 /* boohoohoo MessagesExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FD624D324D00D6B005B8904 /* Build configuration list for PBXNativeTarget "boohoohoo MessagesExtension" */;
+			buildPhases = (
+				1FD624BD24D00D6A005B8904 /* Sources */,
+				1FD624BE24D00D6A005B8904 /* Frameworks */,
+				1FD624BF24D00D6A005B8904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "boohoohoo MessagesExtension";
+			productName = "Stickers MessagesExtension";
+			productReference = 1FD624C124D00D6A005B8904 /* boohoohoo MessagesExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FD624B124D00D68005B8904 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 2610;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					1FD624B624D00D68005B8904 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					1FD624C024D00D6A005B8904 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 1FD624B424D00D68005B8904 /* Build configuration list for PBXProject "boohoohoo" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FD624B024D00D68005B8904;
+			productRefGroup = 1FD624B824D00D68005B8904 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FD624B624D00D68005B8904 /* boohoohoo */,
+				1FD624C024D00D6A005B8904 /* boohoohoo MessagesExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FD624B524D00D68005B8904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2920C42E93684B00A0581C /* emote_goblin_boohoo.png in Resources */,
+				CE2920EA2E93697D00A0581C /* emote_goblin_thumbs_up.png in Resources */,
+				CE2920EB2E93697D00A0581C /* emote_goblin_confused_02.png in Resources */,
+				CE2920EC2E93697D00A0581C /* emote_goblin_laugh.png in Resources */,
+				CE2920ED2E93697D00A0581C /* emote_goblin_grinch.png in Resources */,
+				CE2920EE2E93697D00A0581C /* emote_goblin_flex.png in Resources */,
+				CE2920EF2E93697D00A0581C /* emote_goblin_confused_01.png in Resources */,
+				CE2920F02E93697D00A0581C /* emote_goblin_masterplan.png in Resources */,
+				CE29212D2E936EB800A0581C /* emote_hog_scream.png in Resources */,
+				CE29212E2E936EB800A0581C /* emote_hog_rider_love.png in Resources */,
+				CE29212F2E936EB800A0581C /* Emote_HogRider_Think.png in Resources */,
+				CE2921302E936EB800A0581C /* emote_hog_rider_confused.png in Resources */,
+				CE2921312E936EB800A0581C /* emote_hog_rider_golden.png in Resources */,
+				CE2921322E936EB800A0581C /* emote_hog_rider_santa.png in Resources */,
+				CE2921332E936EB800A0581C /* emote_hog_snowball_christmas.png in Resources */,
+				CE2921342E936EB800A0581C /* Emote_Hogrider_Sunset.png in Resources */,
+				CE2920F12E93697D00A0581C /* emote_goblin_waiting.png in Resources */,
+				CE2920F22E93697D00A0581C /* emote_goblin_this_is_fine.png in Resources */,
+				CE2920F32E93697D00A0581C /* emote_goblin_anchored.png in Resources */,
+				CE2920F42E93697D00A0581C /* emote_goblin_forfeit.png in Resources */,
+				CE2920F52E93697D00A0581C /* emote_goblin_tongue.png in Resources */,
+				CE2920F62E93697D00A0581C /* emote_goblin_peace.png in Resources */,
+				CE2920F72E93697D00A0581C /* emote_goblin_grin.png in Resources */,
+				CE2921122E936BC500A0581C /* emote_princes_trumpet.png in Resources */,
+				CE2921132E936BC500A0581C /* emote_princess_hongbao.png in Resources */,
+				CE2921142E936BC500A0581C /* emote_princess_thumbs_up.png in Resources */,
+				CE2921152E936BC500A0581C /* emote_princess_tumbs_up_02.png in Resources */,
+				CE2921162E936BC500A0581C /* emote_princess_yarn.png in Resources */,
+				CE2921172E936BC500A0581C /* emote_princess_whistle.png in Resources */,
+				CE2921182E936BC500A0581C /* Emote_Princess_GoAhead.png in Resources */,
+				CE2921192E936BC500A0581C /* emote_princess_heart.png in Resources */,
+				CE29211A2E936BC500A0581C /* emote_princess_peace.png in Resources */,
+				CE29211B2E936BC500A0581C /* emote_princess_flex.png in Resources */,
+				CE29211C2E936BC500A0581C /* emote_princess_angry.png in Resources */,
+				CE2920F82E93697D00A0581C /* emote_goblin_excited.png in Resources */,
+				CE2920F92E93697D00A0581C /* emote_goblin_love.png in Resources */,
+				CE2920FA2E93697D00A0581C /* emote_goblin_ohno.png in Resources */,
+				CE2921492E936FF600A0581C /* Emote_King_SquadBaby.png in Resources */,
+				CE29214A2E936FF600A0581C /* emote_king_laugh.png in Resources */,
+				CE29214B2E936FF600A0581C /* emotes_king_chessquit.png in Resources */,
+				CE29214C2E936FF600A0581C /* emotes_king_chessthink.png in Resources */,
+				CE29214D2E936FF600A0581C /* emote_king_angry.png in Resources */,
+				CE29214E2E936FF600A0581C /* emote_king_pixelated_laugh.png in Resources */,
+				CE29214F2E936FF600A0581C /* emote_king_cry.png in Resources */,
+				CE2921502E936FF600A0581C /* Emote_King_ShareCry.png in Resources */,
+				CE2921512E936FF600A0581C /* emote_king_thumbs_up_01.png in Resources */,
+				CE2921522E936FF600A0581C /* Emote_King_RocketRide.png in Resources */,
+				CE2920FB2E93697D00A0581C /* emote_goblin_deal_with_it.png in Resources */,
+				1FD624BB24D00D6A005B8904 /* Assets.xcassets in Resources */,
+				CE2920C22E92F99200A0581C /* Categories.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FD624BF24D00D6A005B8904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2920C52E93684B00A0581C /* emote_goblin_boohoo.png in Resources */,
+				1FD624CF24D00D6B005B8904 /* Assets.xcassets in Resources */,
+				CE2921072E936BC500A0581C /* emote_princes_trumpet.png in Resources */,
+				CE2921082E936BC500A0581C /* emote_princess_hongbao.png in Resources */,
+				CE2921092E936BC500A0581C /* emote_princess_thumbs_up.png in Resources */,
+				CE29210A2E936BC500A0581C /* emote_princess_tumbs_up_02.png in Resources */,
+				CE29210B2E936BC500A0581C /* emote_princess_yarn.png in Resources */,
+				CE29210C2E936BC500A0581C /* emote_princess_whistle.png in Resources */,
+				CE29210D2E936BC500A0581C /* Emote_Princess_GoAhead.png in Resources */,
+				CE29210E2E936BC500A0581C /* emote_princess_heart.png in Resources */,
+				CE29210F2E936BC500A0581C /* emote_princess_peace.png in Resources */,
+				CE2921102E936BC500A0581C /* emote_princess_flex.png in Resources */,
+				CE2921112E936BC500A0581C /* emote_princess_angry.png in Resources */,
+				1FD624CD24D00D6A005B8904 /* MainInterface.storyboard in Resources */,
+				CE2920D82E93697D00A0581C /* emote_goblin_thumbs_up.png in Resources */,
+				CE2920D92E93697D00A0581C /* emote_goblin_confused_02.png in Resources */,
+				CE2920DA2E93697D00A0581C /* emote_goblin_laugh.png in Resources */,
+				CE2920DB2E93697D00A0581C /* emote_goblin_grinch.png in Resources */,
+				CE2920DC2E93697D00A0581C /* emote_goblin_flex.png in Resources */,
+				CE2921252E936EB800A0581C /* emote_hog_scream.png in Resources */,
+				CE2921262E936EB800A0581C /* emote_hog_rider_love.png in Resources */,
+				CE2921272E936EB800A0581C /* Emote_HogRider_Think.png in Resources */,
+				CE2921282E936EB800A0581C /* emote_hog_rider_confused.png in Resources */,
+				CE2921292E936EB800A0581C /* emote_hog_rider_golden.png in Resources */,
+				CE29212A2E936EB800A0581C /* emote_hog_rider_santa.png in Resources */,
+				CE29213F2E936FF600A0581C /* Emote_King_SquadBaby.png in Resources */,
+				CE2921402E936FF600A0581C /* emote_king_laugh.png in Resources */,
+				CE2921412E936FF600A0581C /* emotes_king_chessquit.png in Resources */,
+				CE2921422E936FF600A0581C /* emotes_king_chessthink.png in Resources */,
+				CE2921432E936FF600A0581C /* emote_king_angry.png in Resources */,
+				CE2921442E936FF600A0581C /* emote_king_pixelated_laugh.png in Resources */,
+				CE2921452E936FF600A0581C /* emote_king_cry.png in Resources */,
+				CE2921462E936FF600A0581C /* Emote_King_ShareCry.png in Resources */,
+				CE2921472E936FF600A0581C /* emote_king_thumbs_up_01.png in Resources */,
+				CE2921482E936FF600A0581C /* Emote_King_RocketRide.png in Resources */,
+				CE29212B2E936EB800A0581C /* emote_hog_snowball_christmas.png in Resources */,
+				CE29212C2E936EB800A0581C /* Emote_Hogrider_Sunset.png in Resources */,
+				CE2920DD2E93697D00A0581C /* emote_goblin_confused_01.png in Resources */,
+				CE2920DE2E93697D00A0581C /* emote_goblin_masterplan.png in Resources */,
+				CE2920DF2E93697D00A0581C /* emote_goblin_waiting.png in Resources */,
+				CE2920E02E93697D00A0581C /* emote_goblin_this_is_fine.png in Resources */,
+				CE2920E12E93697D00A0581C /* emote_goblin_anchored.png in Resources */,
+				CE2920E22E93697D00A0581C /* emote_goblin_forfeit.png in Resources */,
+				CE2920E32E93697D00A0581C /* emote_goblin_tongue.png in Resources */,
+				CE2920E42E93697D00A0581C /* emote_goblin_peace.png in Resources */,
+				CE2920E52E93697D00A0581C /* emote_goblin_grin.png in Resources */,
+				CE2920E62E93697D00A0581C /* emote_goblin_excited.png in Resources */,
+				CE2920E72E93697D00A0581C /* emote_goblin_love.png in Resources */,
+				CE2920E82E93697D00A0581C /* emote_goblin_ohno.png in Resources */,
+				CE2920E92E93697D00A0581C /* emote_goblin_deal_with_it.png in Resources */,
+				CE2920C12E92F99200A0581C /* Categories.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FD624BD24D00D6A005B8904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD6250624D09A2B005B8904 /* StickerCollectionReusableViews.swift in Sources */,
+				CE2921542E938BB000A0581C /* MemoryCache.swift in Sources */,
+				1F1687102541653200097CD3 /* Stickers+Extensions.swift in Sources */,
+				1FD624CA24D00D6A005B8904 /* MessagesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FD624C424D00D6A005B8904 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FD624C024D00D6A005B8904 /* boohoohoo MessagesExtension */;
+			targetProxy = 1FD624C324D00D6A005B8904 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FD624CB24D00D6A005B8904 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FD624CC24D00D6A005B8904 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FD624D124D00D6B005B8904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2NKPQNCD3A;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FD624D224D00D6B005B8904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2NKPQNCD3A;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FD624D424D00D6B005B8904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "boohoohoo MessagesExtension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bming-stuff.extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1FD624D524D00D6B005B8904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "boohoohoo MessagesExtension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bming-stuff.extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1FD624D824D00D6B005B8904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = boohoohoo/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "bming-stuff";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1FD624D924D00D6B005B8904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = boohoohoo/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "bming-stuff";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FD624B424D00D68005B8904 /* Build configuration list for PBXProject "boohoohoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD624D124D00D6B005B8904 /* Debug */,
+				1FD624D224D00D6B005B8904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FD624D324D00D6B005B8904 /* Build configuration list for PBXNativeTarget "boohoohoo MessagesExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD624D424D00D6B005B8904 /* Debug */,
+				1FD624D524D00D6B005B8904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FD624D724D00D6B005B8904 /* Build configuration list for PBXNativeTarget "boohoohoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD624D824D00D6B005B8904 /* Debug */,
+				1FD624D924D00D6B005B8904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FD624B124D00D68005B8904 /* Project object */;
+}
